@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 # Dummy users (replace this with a real user database)
 users = {'username': 'password', 'user1': 'password1', 'user2': 'password2'}
+users = {'username': 'password', 'user3': 'password3', 'user4': 'password4'}
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
